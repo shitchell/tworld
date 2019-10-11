@@ -1,0 +1,94 @@
+{
+    "items": [
+        {
+            "name": "gold coin",
+            "id": 30,
+            "char": "o",
+            "size": 1,
+            "description": "ancient aztec golden coin"
+        },
+        {
+            "name": "chest",
+            "id": 50,
+            "char": "x",
+            "size": 10,
+            "capacity": 8,
+            "description": "a dusty chest with floral golden inlays"
+        },
+        {
+            "name": "backpack",
+            "id": 55,
+            "char": "x",
+            "size": 8,
+            "capacity": 6,
+            "description": "a small leather rucksack"
+        },
+        {
+            "name": "table",
+            "id": 70,
+            "description": "an old table with rotting wood"
+        }
+    ],
+    "item_groups": [
+        {
+            "name": "table",
+            "id": 80,
+            "description": "an old chest sitting atop a rickety table"
+        }
+    ],
+    "paths": [
+        {
+            "name": "dirt path",
+            "id": 0,
+            "char": "."
+        }
+    ],
+    "structures": [
+        {
+            "name": "wall",
+            "id": 1,
+            "char": "#",
+            "description": "rock wall made of limestone"
+        },
+        {
+            "name": "door",
+            "id": 2,
+            "char": "^",
+            "impasse": false,
+            "description": "an arched door cutout in the limestone"
+        },
+        {
+            "name": "waterfall",
+            "id": 3,
+            "char": "|",
+            "description": "a tall waterfall originating from some unseen point"
+        }
+    ],
+    "characters": [
+        {
+            "name": "monster",
+            "id": 90,
+            "char": "@",
+            "description": "a hideous beast with mangled fangs",
+            "health": 20,
+            "attack": 20
+        }
+    ],
+    "map": [
+        [  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1],
+        [  1,  1,  1,  0,  1,  1,  1,  1,  1,  1,  1],
+        [  1,  1,  1,  2,  1,  1,  1,  1,  1,  1,  1],
+        [  1,  1,  1,  0,  0,  0,  1,  1,  1,  1,  1],
+        [  1,  1,  1,  1,  1,  0,  1,  1,  1,  1,  1],
+        [  1,  1,  1,  1,  1,  2,  1,  1,  1,  1,  1],
+        [  1,  1,  1,  1,  1,"_",  1,  1,  1,  1,  1],
+        [  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1],
+        [  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1],
+        [  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1],
+        [  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1]
+    ],
+    "settings": {
+        "welcome": "Welcome to the game!",
+        "spawn_char": "_"
+    }
+}
